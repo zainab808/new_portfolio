@@ -226,43 +226,8 @@ class ContactScreen extends StatelessWidget {
 
                     const SizedBox(height: 10),
 
-                    if(size.width>170)
-                    Align(
-                      alignment: Alignment.centerRight,
-                      child: InkWell(
-                        onTap: () {},
-                        child: Container(
-                          height: 60,
-                          width: 130,
-                          decoration: BoxDecoration(
-                            color: const Color(0xff0066CC),
-                            borderRadius: BorderRadius.circular(5),
-                          ),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                            children: const [
-                             
-                             
-                             
-                              Text(
-                                "Submit",
-                                style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 20,
-                                  color: Colors.white,
-                                ),
-                              ),
-                              Icon(
-                                Icons.send_rounded,
-                                color: Colors.white,
-                                size: 25,
-                              ),
-                            ],
-                          ),
-                        ),
-                      ),
-                    ),
-                   if(size.width<170)
+                   
+                   if(size.width>113)
                  
                      Align(
                       alignment: Alignment.centerRight,
