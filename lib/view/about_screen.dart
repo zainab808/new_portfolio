@@ -289,11 +289,12 @@ class AboutScreen extends StatelessWidget {
                                     ? 200
                                     : 300
                                 : 400,
-                            width: size.width < 340
+                            width: size.width < 1115?
+                             size.width < 340
                                 ? size.width < 162
                                     ? 200
-                                    : 300
-                                : 400,
+                                    : 270
+                                : 300:320,
                             decoration: BoxDecoration(
                                 image: DecorationImage(
                                   image: AssetImage("flower/doll.png"),
@@ -418,7 +419,7 @@ class AboutScreen extends StatelessWidget {
                                           fontWeight: FontWeight.w500),
                                     ),
                                     Text(
-                                      "zainab3devsinn@gmail.com :",
+                                      "zainab3devsinn@gmail.com ",
                                       style: TextStyle(
                                           color: Colors.black,
                                           fontSize: size.width <= 551
@@ -453,7 +454,7 @@ class AboutScreen extends StatelessWidget {
                                           fontWeight: FontWeight.w500),
                                     ),
                                     Text(
-                                      "Lahore -Pakistan :",
+                                      "Lahore -Pakistan ",
                                       style: TextStyle(
                                           color: Colors.black,
                                           fontSize: size.width < 375 ? 12 : 18,
@@ -471,7 +472,7 @@ class AboutScreen extends StatelessWidget {
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text(
-                                      "Phone Number:",
+                                      "Phone Number",
                                       style: TextStyle(
                                           color: Color(0xff0066CC),
                                           fontSize: size.width < 425
@@ -598,8 +599,13 @@ class AboutScreen extends StatelessWidget {
                     : Row(
                         children: [
                           Container(
-                            height: 400,
-                            width: 400,
+                              height: size.width < 1115
+                                ? 
+                                     300
+                                : 400,
+                            width: size.width < 1116?
+                           
+                               300:400,
                             decoration: BoxDecoration(
                                 image: DecorationImage(
                                   image: AssetImage("flower/doll.png"),
