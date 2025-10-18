@@ -59,7 +59,7 @@ class AboutScreen extends StatelessWidget {
                       size: 35,
                     ),
                     SizedBox(
-                      width: 10,
+                      width: 11,
                     ),
                     
                     Text(
