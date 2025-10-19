@@ -771,7 +771,7 @@ class _ProjectScreenState extends State<ProjectScreen> {
                             ? size.width < 990
                                 ? 250
                                 : 300
-                            : 360,
+                            : 330,
                         decoration: BoxDecoration(
                           color: Color(0xff0066CC),
                           borderRadius: BorderRadius.circular(5),
@@ -890,7 +890,7 @@ class _ProjectScreenState extends State<ProjectScreen> {
                             ? size.width < 990
                                 ? 250
                                 : 300
-                            : 360,
+                            : 330,
                         decoration: BoxDecoration(
                           color: Color(0xff0066CC),
                           borderRadius: BorderRadius.circular(5),
