@@ -26,7 +26,8 @@ class SkillsScreen extends StatelessWidget {
                                SizedBox(width: 10,),
                               Text("Skills &",style: TextStyle(fontSize:size.width<=438?size.width<=373?size.width<299?10: 20:30: 40,fontWeight: FontWeight.bold,color: Colors.white),),
                               SizedBox(width: 15,),
-                               Text("Abilities",style: TextStyle(color:Color(0xff1FF52D),fontSize: size.width<=438?size.width<=373?size.width<299?10:20: 30:40,fontWeight: FontWeight.bold),)
+                               
+                               Text("Abilities",style: TextStyle(color:Color(0xff1FF52D),fontSize: size.width<=444?size.width<=373?size.width<304?10:20: 30:40,fontWeight: FontWeight.bold),)
                             ],
                           ),
                         
