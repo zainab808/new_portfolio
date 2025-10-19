@@ -31,7 +31,7 @@ class AboutScreen extends StatelessWidget {
                         : 5
                     : 20
                 : 60),
-        height: size.width < 1115
+        height: size.width < 1116
             ? size.width < 794
              ? size.width < 734
                 ? size.width < 469
@@ -91,7 +91,7 @@ class AboutScreen extends StatelessWidget {
                 SizedBox(
                   height: size.width < 162 ? 10 : 20,
                 ),
-                size.width < 1115
+                size.width < 1206
                     ? Wrap(
                         children: [
                           Container(
