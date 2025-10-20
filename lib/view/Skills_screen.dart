@@ -8,7 +8,7 @@ class SkillsScreen extends StatelessWidget {
     Size size = MediaQuery.of(context).size;
 
     return Container(
-                       padding:   const EdgeInsets.only(top: 40,
+                       padding:    EdgeInsets.only(top: 40,
                     left: 60,
                     right: 60),
                         height:size.width<=1115?size.width<=165? size.height*4 :size.height*2.3: size.height*0.7,
