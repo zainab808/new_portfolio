@@ -825,7 +825,8 @@ if (size.width <=870) ...[
                        
                         ],
                       ),
-                      Spacer(),
+
+                      // Spacer(),
                       Column(
                         children: [
                           Container(
@@ -1029,6 +1030,7 @@ if (size.width <=870) ...[
                           )
                         ],
                       ),
+                      // SizedBox(width: ,),
                       Spacer(),
                       Column(
                         children: [
