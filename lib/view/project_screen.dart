@@ -4,6 +4,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'package:portfolio/components/alert_text.dart';
 
 class ProjectScreen extends StatefulWidget {
   const ProjectScreen({super.key});
@@ -50,7 +51,7 @@ class _ProjectScreenState extends State<ProjectScreen> {
                     SizedBox(
                       width: 10,
                     ),
-                    Text(
+                  AlertText(
                       "Projects",
                       style: TextStyle(
                           fontSize: size.width < 540
@@ -64,7 +65,7 @@ class _ProjectScreenState extends State<ProjectScreen> {
                     SizedBox(
                       width: 10,
                     ),
-                    Text(
+                  AlertText(
                       "Made",
                       style: TextStyle(
                           color: Color(0xff1FF52D),
@@ -81,7 +82,7 @@ class _ProjectScreenState extends State<ProjectScreen> {
                 SizedBox(
                   height: size.width < 390 ? 10 : 20,
                 ),
-                Text(
+              AlertText(
                   "Mobile Development",
                   style: TextStyle(
                       fontSize: size.width < 540
@@ -110,7 +111,8 @@ class _ProjectScreenState extends State<ProjectScreen> {
                             _isHovering[index] = false;
                           });
                         },
-                        child: Container(
+                        child:
+                         Container(
                           margin: EdgeInsets.all(8),
                           height: size.width < 690
                               ? size.width < 540
@@ -185,7 +187,8 @@ class _ProjectScreenState extends State<ProjectScreen> {
                               ),
                               if (_isHovering[index])
                                 Positioned.fill(
-                                  child: Container(
+                                  child: 
+                                  Container(
                                     decoration: BoxDecoration(
                                       color: Colors.white.withOpacity(0.7),
                                       borderRadius: BorderRadius.circular(5),
@@ -197,7 +200,7 @@ class _ProjectScreenState extends State<ProjectScreen> {
                                           mainAxisAlignment:
                                               MainAxisAlignment.center,
                                           children: [  if(size.width>102)
-                                            Text(
+                                          AlertText(
                                               index == 0
                                                   ? "Weather App"
                                                   : index == 1
@@ -217,7 +220,7 @@ class _ProjectScreenState extends State<ProjectScreen> {
                                                 height:
                                                     size.width < 390 ? 5 : 10),
                                                     if(size.width>123)
-                                            Text(
+                                            AlertText(
                                               index == 0
                                                   ? "A weather forecasting app built with Flutter and OpenWeatherMap API."
                                                   : index == 1
@@ -319,7 +322,7 @@ class _ProjectScreenState extends State<ProjectScreen> {
                               Positioned(
                                 bottom: 21,
                                 left: 20,
-                                child: Text(
+                                child: AlertText(
                                   index == 0
                                       ? "Weather App"
                                       : index == 1
@@ -351,7 +354,7 @@ class _ProjectScreenState extends State<ProjectScreen> {
                                               MainAxisAlignment.center,
                                           children: [
                                               if(size.width>102)
-                                            Text(
+                                            AlertText(
                                               index == 0
                                                   ? "Weather App"
                                                   : index == 1
@@ -369,7 +372,7 @@ class _ProjectScreenState extends State<ProjectScreen> {
                                             ),
                                             SizedBox(height: 10),
                                             if(size.width>123)
-                                            Text(
+                                            AlertText(
                                               index == 0
                                                   ? "A weather forecasting app built with Flutter and OpenWeatherMap API."
                                                   : index == 1
@@ -470,7 +473,7 @@ class _ProjectScreenState extends State<ProjectScreen> {
                               Positioned(
                                 bottom: 20,
                                 left: 20,
-                                child: Text(
+                                child: AlertText(
                                   index == 0
                                       ? "Daraz UI Design"
                                       : index == 1
@@ -502,7 +505,7 @@ class _ProjectScreenState extends State<ProjectScreen> {
                                               MainAxisAlignment.center,
                                           children: [
                                               if(size.width>102)
-                                            Text(
+                                            AlertText(
                                               index == 0
                                                   ? "Daraz UI Design"
                                                   : index == 1
@@ -520,7 +523,7 @@ class _ProjectScreenState extends State<ProjectScreen> {
                                             ),
                                             SizedBox(height: 10),
                                             if(size.width>123)
-                                            Text(
+                                            AlertText(
                                               index == 0
                                                   ? "Flutter-based clean and responsive UI inspired by Daraz, featuring easy navigation and attractive product display."
                                                   : index == 1
@@ -621,7 +624,7 @@ class _ProjectScreenState extends State<ProjectScreen> {
                                 child:
                                 
 
-                                 Text(
+                                 AlertText(
                                   index == 0
                                       ? "Daraz UI Design"
                                       : index == 1
@@ -653,7 +656,7 @@ class _ProjectScreenState extends State<ProjectScreen> {
                                               MainAxisAlignment.center,
                                           children: [
                                               if(size.width>102)
-                                            Text(
+                                            AlertText(
                                               index == 0
                                                   ? "Daraz UI Design"
                                                   : index == 1
@@ -671,7 +674,7 @@ class _ProjectScreenState extends State<ProjectScreen> {
                                             ),
                                             SizedBox(height: 10),
                                             if(size.width>123)
-                                            Text(
+                                            AlertText(
                                               index == 0
                                                   ? "Flutter-based clean and responsive UI inspired by Daraz, featuring easy navigation and attractive product display."
                                                   : index == 1
@@ -706,7 +709,8 @@ class _ProjectScreenState extends State<ProjectScreen> {
               ],
             );
           } else {
-            return Column(
+            return 
+            Column(
               children: [
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -719,7 +723,7 @@ class _ProjectScreenState extends State<ProjectScreen> {
                     SizedBox(
                       width: 10,
                     ),
-                    Text(
+                 AlertText(
                       "Projects",
                       style: TextStyle(
                           fontSize: 40,
@@ -729,7 +733,7 @@ class _ProjectScreenState extends State<ProjectScreen> {
                     SizedBox(
                       width: 10,
                     ),
-                    Text(
+                 AlertText(
                       "Made",
                       style: TextStyle(
                           color: Color(0xff1FF52D),
@@ -741,7 +745,7 @@ class _ProjectScreenState extends State<ProjectScreen> {
                 SizedBox(
                   height: 20,
                 ),
-                Text(
+             AlertText(
                   "Mobile Development",
                   style: TextStyle(
                       fontSize: 35,
@@ -801,7 +805,7 @@ class _ProjectScreenState extends State<ProjectScreen> {
                             Positioned(
                               bottom: 20,
                               left: 20,
-                              child: Text(
+                              child: AlertText(
                                 index == 0
                                     ? "Weather App"
                                     : index == 1
@@ -828,7 +832,7 @@ class _ProjectScreenState extends State<ProjectScreen> {
                                         mainAxisAlignment:
                                             MainAxisAlignment.center,
                                         children: [
-                                          Text(
+                                          AlertText(
                                             index == 0
                                                 ? "Weather App"
                                                 : index == 1
@@ -842,7 +846,7 @@ class _ProjectScreenState extends State<ProjectScreen> {
                                             ),
                                           ),
                                           SizedBox(height: 10),
-                                          Text(
+                                          AlertText(
                                             index == 0
                                                 ? "A weather forecasting app built with Flutter and OpenWeatherMap API."
                                                 : index == 1
@@ -920,7 +924,7 @@ class _ProjectScreenState extends State<ProjectScreen> {
                             Positioned(
                               bottom: 20,
                               left: 20,
-                              child: Text(
+                              child: AlertText(
                                 index == 0
                                     ? "Daraz UI Design"
                                     : index == 1
@@ -947,7 +951,7 @@ class _ProjectScreenState extends State<ProjectScreen> {
                                         mainAxisAlignment:
                                             MainAxisAlignment.center,
                                         children: [
-                                          Text(
+                                          AlertText(
                                             index == 0
                                                 ? "Daraz UI Design"
                                                 : index == 1
@@ -961,7 +965,7 @@ class _ProjectScreenState extends State<ProjectScreen> {
                                             ),
                                           ),
                                           SizedBox(height: 10),
-                                          Text(
+                                          AlertText(
                                             index == 0
                                                 ? "Flutter-based clean and responsive UI inspired by Daraz, featuring easy navigation and attractive product display."
                                                 : index == 1

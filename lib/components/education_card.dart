@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio/components/alert_text.dart';
 
 
 
@@ -55,7 +56,7 @@ class EducationCard extends StatelessWidget {
               children: [
 
 
-                Text(
+             AlertText(
                   title,
                   style: const TextStyle(
                     color: Color(0xff01478C),
@@ -64,7 +65,7 @@ class EducationCard extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(height: 5),
-                Text(
+             AlertText(
                   subtitle,
                   style: TextStyle(
                     color: Colors.black,
@@ -73,7 +74,7 @@ class EducationCard extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(height: 8),
-                Text(
+             AlertText(
                   duration,
                   style: const TextStyle(
                     color: Color(0xff1E78D2),

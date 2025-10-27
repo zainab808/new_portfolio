@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio/components/alert_text.dart';
 
 class SkillsCard extends StatelessWidget {
   var text,image;
@@ -23,7 +24,7 @@ class SkillsCard extends StatelessWidget {
                                       backgroundColor: Colors.white,
                                 
                                     ),
-                                    Text(text,style: TextStyle(color: Colors.black,fontSize:size.width<=898?20:  25,),)
+                                    AlertText(text,style: TextStyle(color: Colors.black,fontSize:size.width<=898?20:  25,),)
                                   ],
                                 
                                  ),

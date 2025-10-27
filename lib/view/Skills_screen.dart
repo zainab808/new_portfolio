@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio/components/alert_text.dart';
 import 'package:portfolio/components/skills_card.dart';
 import 'package:portfolio/components/skills_w.dart';
 
@@ -26,10 +27,10 @@ class SkillsScreen extends StatelessWidget {
                             children: [
                               Icon(Icons.computer,size:size.width<=438?size.width<=373?size.width<299?18:25:30: 35,color: Colors.white,),
                                SizedBox(width: 10,),
-                              Text("Skills &",style: TextStyle(fontSize:size.width<=438?size.width<=373?size.width<299?10: 20:30: 40,fontWeight: FontWeight.bold,color: Colors.white),),
+                         AlertText("Skills &",style: TextStyle(fontSize:size.width<=438?size.width<=373?size.width<299?10: 20:30: 40,fontWeight: FontWeight.bold,color: Colors.white),),
                               SizedBox(width: 15,),
                                
-                               Text("Abilities",style: TextStyle(color:Color(0xff1FF52D),fontSize: size.width<=444?size.width<=373?size.width<304?10:20: 30:40,fontWeight: FontWeight.bold),)
+                          AlertText("Abilities",style: TextStyle(color:Color(0xff1FF52D),fontSize: size.width<=444?size.width<=373?size.width<304?10:20: 30:40,fontWeight: FontWeight.bold),)
                             ],
                           ),
                         
@@ -38,9 +39,9 @@ class SkillsScreen extends StatelessWidget {
                             children: [
                               Icon(Icons.computer,size:size.width<=438?size.width<=373?size.width<299?18:25:30: 35,color: Colors.white,),
                                SizedBox(width: 10,),
-                              Text("Skills &",style: TextStyle(fontSize:size.width<=438?size.width<=373? 20:30: 40,fontWeight: FontWeight.bold,color: Colors.white),),
+                         AlertText("Skills &",style: TextStyle(fontSize:size.width<=438?size.width<=373? 20:30: 40,fontWeight: FontWeight.bold,color: Colors.white),),
                               SizedBox(width: 10,),
-                               Text("Abilities",style: TextStyle(color:Color(0xff1FF52D),fontSize: size.width<=438?size.width<=373?size.width<299?10:20: 30:40,fontWeight: FontWeight.bold),)
+                          AlertText("Abilities",style: TextStyle(color:Color(0xff1FF52D),fontSize: size.width<=438?size.width<=373?size.width<299?10:20: 30:40,fontWeight: FontWeight.bold),)
                             ],
                           ),
                        
@@ -149,7 +150,7 @@ SkillsW(text: "MVC", image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAA
                                       backgroundColor: Colors.white,
                      
                                     ),
-                                    Text("Rest API's",style: TextStyle(color: Colors.black,fontSize:size.width<=1115?20: 25,),)
+                               AlertText("Rest API's",style: TextStyle(color: Colors.black,fontSize:size.width<=1115?20: 25,),)
                                   ],
                      
                                  ),

@@ -391,6 +391,7 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:portfolio/components/alert_text.dart';
 import 'package:portfolio/components/education_card.dart';
 
 class EducationScreen extends StatelessWidget {
@@ -418,7 +419,7 @@ class EducationScreen extends StatelessWidget {
                   child: Image.asset("flower/cap.png"),
                 ),
                 const SizedBox(width: 10),
-                Text(
+           AlertText(
                   "My",
                   style: TextStyle(
                     fontSize: size.width <= 407 ? 20 : 40,
@@ -427,7 +428,7 @@ class EducationScreen extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(width: 10),
-                Text(
+           AlertText(
                   "Education",
                   style: TextStyle(
                     color: const Color(0xff0066CC),
@@ -448,7 +449,7 @@ class EducationScreen extends StatelessWidget {
                   child: Image.asset("flower/cap.png"),
                 ),
                 const SizedBox(height: 10),
-                Text(
+           AlertText(
                   "My",
                   style: TextStyle(
                     fontSize: size.width <= 407 ? 20 : 40,
@@ -457,7 +458,7 @@ class EducationScreen extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(height: 10),
-                Text(
+           AlertText(
                   "Education",
                   style: TextStyle(
                     color: const Color(0xff0066CC),
@@ -469,7 +470,7 @@ class EducationScreen extends StatelessWidget {
             ),
 
           const SizedBox(height: 40),
-          const Text(
+          const AlertText(
             "Education Is Not The Learning Of Facts, But The Training Of The Mind To Think",
             style: TextStyle(fontSize: 25),
             textAlign: TextAlign.center,

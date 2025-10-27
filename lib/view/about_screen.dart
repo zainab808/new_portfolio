@@ -611,8 +611,14 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:portfolio/components/alert_text.dart';
+
 
 class AboutScreen extends StatelessWidget {
+  
+
+
+  
   const AboutScreen({super.key});
 
   @override
@@ -663,7 +669,9 @@ class AboutScreen extends StatelessWidget {
                     children: [
                       Icon(Icons.person, size: 35),
                       SizedBox(width: 11),
-                      Text(
+
+                      
+              AlertText(
                         "Aboout",
                         style: TextStyle(
                           fontSize: size.width <= 375
@@ -675,7 +683,7 @@ class AboutScreen extends StatelessWidget {
                         ),
                       ),
                       SizedBox(width: 10),
-                      Text(
+              AlertText(
                         "Me",
                         style: TextStyle(
                           color: Color(0xff2187DF),
@@ -723,7 +731,7 @@ class AboutScreen extends StatelessWidget {
                             mainAxisAlignment: MainAxisAlignment.start,
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              Text(
+                         AlertText(
                                 "I,m Zainab",
                                 style: TextStyle(
                                   fontSize:
@@ -736,7 +744,7 @@ class AboutScreen extends StatelessWidget {
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   if (size.width > 108)
-                                    Text(
+                             AlertText(
                                       "Flutter Developer",
                                       style: TextStyle(
                                           fontSize: size.width < 375
@@ -748,7 +756,7 @@ class AboutScreen extends StatelessWidget {
                                     ),
                                   SizedBox(width: 5),
                                   if (size.width < 155)
-                                    Text(
+                             AlertText(
                                       "(1 year )",
                                       style: TextStyle(
                                           fontSize: size.width < 246
@@ -760,52 +768,52 @@ class AboutScreen extends StatelessWidget {
                                     ),
                                 ],
                               ),
-                              Text(
+                       AlertText(
                                 "I’m Zainab Batool, a dedicated Flutter Developer with a strong foundation .",
                                 style: TextStyle(
                                     fontSize: size.width < 159 ? 10 : 20),
                               ),
-                              Text(
+                       AlertText(
                                 "in computer science and a background in ICS (Physics).Over the past,year",
                                 style: TextStyle(
                                     fontSize: size.width < 159 ? 10 : 20),
                               ),
-                              Text(
+                       AlertText(
                                 "I’ve gained valuable experience in developing mobile applications with flutter ",
                                 style: TextStyle(
                                     fontSize: size.width < 159 ? 10 : 20),
                               ),
-                              Text(
+                       AlertText(
                                 "focusing on clean architecture and maintainable code.My expertise includes",
                                 style: TextStyle(
                                     fontSize: size.width < 159 ? 10 : 20),
                               ),
-                              Text(
+                       AlertText(
                                 "working with Flutter, Dart, MVC architecture, Provider state management, ",
                                 style: TextStyle(
                                     fontSize: size.width < 159 ? 10 : 20),
                               ),
-                              Text(
+                       AlertText(
                                 "Shared Preferences and custom widget development. I enjoy transforming  ",
                                 style: TextStyle(
                                     fontSize: size.width < 159 ? 10 : 20),
                               ),
-                              Text(
+                       AlertText(
                                 "ideas into interactive and user-friendly apps that provide real value to usersA ",
                                 style: TextStyle(
                                     fontSize: size.width < 159 ? 10 : 20),
                               ),
-                              Text(
+                       AlertText(
                                 "an aspiring professional, my career goal is to pursue a job opportunity in",
                                 style: TextStyle(
                                     fontSize: size.width < 159 ? 10 : 20),
                               ),
-                              Text(
+                       AlertText(
                                 "mobile app development, where I can contribute my skills, contineou ",
                                 style: TextStyle(
                                     fontSize: size.width < 159 ? 10 : 20),
                               ),
-                              Text(
+                       AlertText(
                                 "learning, and grow as a developer while working on impactful projects",
                                 style: TextStyle(
                                     fontSize: size.width < 159 ? 10 : 20),
@@ -815,7 +823,7 @@ class AboutScreen extends StatelessWidget {
                               if (size.width > 235)
                                 Row(
                                   children: [
-                                    Text(
+                              AlertText(
                                       "Email :",
                                       style: TextStyle(
                                           color: Color(0xff0066CC),
@@ -826,7 +834,7 @@ class AboutScreen extends StatelessWidget {
                                               : 20,
                                           fontWeight: FontWeight.w500),
                                     ),
-                                    Text(
+                              AlertText(
                                       "zainab3devsinn@gmail.com ",
                                       style: TextStyle(
                                           color: Colors.black,
@@ -845,7 +853,7 @@ class AboutScreen extends StatelessWidget {
                               if (size.width > 235)
                                 Row(
                                   children: [
-                                    Text(
+                                 AlertText(
                                       "Place :",
                                       style: TextStyle(
                                           color: Color(0xff0066CC),
@@ -856,7 +864,7 @@ class AboutScreen extends StatelessWidget {
                                               : 20,
                                           fontWeight: FontWeight.w500),
                                     ),
-                                    Text(
+                                 AlertText(
                                       "Lahore -Pakistan ",
                                       style: TextStyle(
                                           color: Colors.black,
@@ -869,7 +877,7 @@ class AboutScreen extends StatelessWidget {
                               if (size.width > 235)
                                 Row(
                                   children: [
-                                    Text(
+                                AlertText(
                                       "Phone Number",
                                       style: TextStyle(
                                           color: Color(0xff0066CC),
@@ -880,7 +888,7 @@ class AboutScreen extends StatelessWidget {
                                               : 20,
                                           fontWeight: FontWeight.w500),
                                     ),
-                                    Text(
+                                AlertText(
                                       "+92 334-426-1127 ",
                                       style: TextStyle(
                                           color: Colors.black,
@@ -917,7 +925,7 @@ class AboutScreen extends StatelessWidget {
                             Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
-                                Text(
+                                AlertText(
                                   "I,m Zainab",
                                   style: TextStyle(
                                       fontSize: 30,
@@ -925,14 +933,14 @@ class AboutScreen extends StatelessWidget {
                                 ),
                                 Row(
                                   children: [
-                                    Text(
+                                    AlertText(
                                       "Flutter Developer",
                                       style: TextStyle(
                                           fontSize: 20,
                                           fontWeight: FontWeight.bold),
                                     ),
                                     SizedBox(width: 5),
-                                    Text(
+                                    AlertText(
                                       "(1 year )",
                                       style: TextStyle(
                                           fontSize: 20,
@@ -940,43 +948,43 @@ class AboutScreen extends StatelessWidget {
                                     ),
                                   ],
                                 ),
-                                Text(
+                                AlertText(
                                   "I’m Zainab Batool, a dedicated Flutter Developer with a strong foundation .",
                                   style: TextStyle(fontSize: 20),
                                 ),
-                                Text(
+                                AlertText(
                                   "in computer science and a background in ICS (Physics).Over the past,year",
                                   style: TextStyle(fontSize: 20),
                                 ),
-                                Text(
+                                AlertText(
                                   "I’ve gained valuable experience in developing mobile applications with flutter ",
                                   style: TextStyle(fontSize: 20),
                                 ),
-                                Text(
+                                AlertText(
                                   "focusing on clean architecture and maintainable code.My expertise includes",
                                   style: TextStyle(fontSize: 20),
                                 ),
-                                Text(
+                                AlertText(
                                   "working with Flutter, Dart, MVC architecture, Provider state management, ",
                                   style: TextStyle(fontSize: 20),
                                 ),
-                                Text(
+                             AlertText(
                                   "Shared Preferences and custom widget development. I enjoy transforming  ",
                                   style: TextStyle(fontSize: 20),
                                 ),
-                                Text(
+                             AlertText(
                                   "ideas into interactive and user-friendly apps that provide real value to usersA ",
                                   style: TextStyle(fontSize: 20),
                                 ),
-                                Text(
+                             AlertText(
                                   "an aspiring professional, my career goal is to pursue a job opportunity in",
                                   style: TextStyle(fontSize: 20),
                                 ),
-                                Text(
+                             AlertText(
                                   "mobile app development, where I can contribute my skills, contineou ",
                                   style: TextStyle(fontSize: 20),
                                 ),
-                                Text(
+                             AlertText(
                                   "learning, and grow as a developer while working on impactful projects",
                                   style: TextStyle(fontSize: 20),
                                 ),
@@ -985,14 +993,14 @@ class AboutScreen extends StatelessWidget {
                                   children: [
                                     Row(
                                       children: [
-                                        Text(
+                                     AlertText(
                                           "Email :",
                                           style: TextStyle(
                                               color: Color(0xff0066CC),
                                               fontSize: 20,
                                               fontWeight: FontWeight.w500),
                                         ),
-                                        Text(
+                                     AlertText(
                                           "zainab3devsinn@gmail.com :",
                                           style: TextStyle(
                                               color: Colors.black,
@@ -1004,14 +1012,14 @@ class AboutScreen extends StatelessWidget {
                                     SizedBox(height: 10),
                                     Row(
                                       children: [
-                                        Text(
+                                     AlertText(
                                           "Place :",
                                           style: TextStyle(
                                               color: Color(0xff0066CC),
                                               fontSize: 20,
                                               fontWeight: FontWeight.w500),
                                         ),
-                                        Text(
+                                     AlertText(
                                           "Lahore -Pakistan :",
                                           style: TextStyle(
                                               color: Colors.black,
@@ -1023,20 +1031,30 @@ class AboutScreen extends StatelessWidget {
                                     SizedBox(height: 10),
                                     Row(
                                       children: [
-                                        Text(
-                                          "Phone Number:",
-                                          style: TextStyle(
-                                              color: Color(0xff0066CC),
-                                              fontSize: 20,
-                                              fontWeight: FontWeight.w500),
-                                        ),
-                                        Text(
+                                        // Text(
+                                        //   "Phone Number:",
+                                        //   style: TextStyle(
+                                        //       color: Color(0xff0066CC),
+                                        //       fontSize: 20,
+                                        //       fontWeight: FontWeight.w500),
+                                        // ),
+
+                                                        AlertText(
+                  "Phone: ",
+                  style: const TextStyle(
+                    color: Color(0xff0066CC),
+                    fontSize: 18,
+                    fontWeight: FontWeight.w500,
+                  ),
+                ),
+AlertText(
+                                        
                                           "+92 334-426-1127 ",
                                           style: TextStyle(
                                               color: Colors.black,
                                               fontSize: 18,
                                               fontWeight: FontWeight.w500),
-                                        ),
+                                      )
                                       ],
                                     ),
                                   ],
@@ -1050,6 +1068,7 @@ class AboutScreen extends StatelessWidget {
           ],
         ),
       ),
+      
     );
   }
 }

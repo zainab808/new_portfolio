@@ -2,6 +2,7 @@ import 'package:animated_text_kit/animated_text_kit.dart';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:portfolio/components/alert_text.dart';
 
 import 'package:portfolio/view/Skills_screen.dart';
 import 'package:portfolio/view/about_screen.dart';
@@ -68,7 +69,7 @@ class _PortfolioScreenState extends State<PortfolioScreen> {
               SizedBox(
                 width: 15
               ),
-              Text(
+              AlertText(
                 "Zainab",
                 style: TextStyle(
                   color: Colors.black,
@@ -99,7 +100,7 @@ if (size.width <=870) ...[
                   );
                 },
                
-                child: Text(
+                child:Text(
                   "About",
                   style: TextStyle(
                     color: Colors.black,
@@ -118,7 +119,7 @@ if (size.width <=870) ...[
                     duration: Duration(seconds: 1),
                   );
                 },
-                child: Text(
+                child:Text(
                   "Skills",
                   style: TextStyle(
                     color: Colors.black,
@@ -137,7 +138,7 @@ if (size.width <=870) ...[
                     duration: Duration(seconds: 1), // scroll speed
                   );
                 },
-                child: Text(
+                child:Text(
                   "Education",
                   style: TextStyle(
                     color: Colors.black,
@@ -156,7 +157,7 @@ if (size.width <=870) ...[
                     duration: Duration(seconds: 1), // scroll speed
                   );
                 },
-                child: Text(
+                child:Text(
                   "Project",
                   style: TextStyle(
                     color: Colors.black,
@@ -174,7 +175,7 @@ if (size.width <=870) ...[
                         .currentContext!, // 👈 jis section par scroll karna hai
                     duration: Duration(seconds: 1), // scroll speed
                   );},
-                child: Text(
+                child:Text(
                   "Experience",
                   style: TextStyle(
                     color: Colors.black,
@@ -193,7 +194,7 @@ if (size.width <=870) ...[
                     duration: Duration(seconds: 1), // scroll speed
                   );
                 },
-                child: Text(
+                child:Text(
                   "Contact",
                   style: TextStyle(
                     color: Colors.black,
@@ -378,7 +379,7 @@ if (size.width <=870) ...[
                   );
                 },
                
-                child: Text(
+                child:Text(
                   "About",
                   style: TextStyle(
                     color: Colors.black,
@@ -397,7 +398,7 @@ if (size.width <=870) ...[
                     duration: Duration(seconds: 1),
                   );
                 },
-                child: Text(
+                child:Text(
                   "Skills",
                   style: TextStyle(
                     color: Colors.black,
@@ -416,7 +417,7 @@ if (size.width <=870) ...[
                     duration: Duration(seconds: 1), // scroll speed
                   );
                 },
-                child: Text(
+                child:Text(
                   "Education",
                   style: TextStyle(
                     color: Colors.black,
@@ -435,7 +436,7 @@ if (size.width <=870) ...[
                     duration: Duration(seconds: 1), // scroll speed
                   );
                 },
-                child: Text(
+                child:Text(
                   "Project",
                   style: TextStyle(
                     color: Colors.black,
@@ -453,7 +454,7 @@ if (size.width <=870) ...[
                         .currentContext!, // 👈 jis section par scroll karna hai
                     duration: Duration(seconds: 1), // scroll speed
                   );},
-                child: Text(
+                child:Text(
                   "Experience",
                   style: TextStyle(
                     color: Colors.black,
@@ -472,7 +473,7 @@ if (size.width <=870) ...[
                     duration: Duration(seconds: 1), // scroll speed
                   );
                 },
-                child: Text(
+                child:Text(
                   "Contact",
                   style: TextStyle(
                     color: Colors.black,
@@ -516,7 +517,7 @@ if (size.width <=870) ...[
                         mainAxisAlignment: MainAxisAlignment.start,
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Text(
+                   AlertText(
                             "Hi There,",
                             style: TextStyle(
                               color: Color(0xff002057),
@@ -527,7 +528,7 @@ if (size.width <=870) ...[
                           if(size.width>344)
                           Row(
                             children: [
-                              Text(
+                       AlertText(
                                 "I,m Zainab ",
                                 style: TextStyle(
                                   color: Color(0xff002057),
@@ -536,7 +537,7 @@ if (size.width <=870) ...[
                                   // fontFamily: "Noto",
                                 ),
                               ),
-                              Text(
+                       AlertText(
                                 "Batool",
                                 style: TextStyle(
                                   color: Color(0xff0066CC),
@@ -552,7 +553,7 @@ if (size.width <=870) ...[
                          
                             Column(
                             children: [
-                              Text(
+                       AlertText(
                                 "I,m Zainab ",
                                 style: TextStyle(
                                   color: Color(0xff002057),
@@ -561,7 +562,7 @@ if (size.width <=870) ...[
                                   // fontFamily: "Noto",
                                 ),
                               ),
-                              Text(
+                       AlertText(
                                 "Batool",
                                 style: TextStyle(
                                   color: Color(0xff0066CC),
@@ -578,7 +579,7 @@ if (size.width <=870) ...[
                       if(size.width>285)
                           Row(
                             children: [
-                              Text(
+                       AlertText(
                                 "I,m into ",
                                 style: TextStyle(
                                     fontSize: 23, fontWeight: FontWeight.w600),
@@ -623,7 +624,7 @@ if (size.width <=870) ...[
                          if(size.width<285)  
                                Column(
                             children: [
-                              Text(
+                              AlertText(
                                 "I,m into ",
                                 style: TextStyle(
                                     fontSize: 23, fontWeight: FontWeight.w600),
@@ -862,7 +863,7 @@ if (size.width <=870) ...[
                         mainAxisAlignment: MainAxisAlignment.start,
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Text(
+                    AlertText(
                             "Hi There,",
                             style: TextStyle(
                               color: Color(0xff002057),
@@ -872,7 +873,7 @@ if (size.width <=870) ...[
                           ),
                           Row(
                             children: [
-                              Text(
+                        AlertText(
                                 "I,m Zainab ",
                                 style: TextStyle(
                                   color: Color(0xff002057),
@@ -881,7 +882,7 @@ if (size.width <=870) ...[
                                   // fontFamily: "Noto",
                                 ),
                               ),
-                              Text(
+                        AlertText(
                                 "Batool",
                                 style: TextStyle(
                                   color: Color(0xff0066CC),
@@ -894,7 +895,7 @@ if (size.width <=870) ...[
                           ),
                           Row(
                             children: [
-                              Text(
+                        AlertText(
                                 "I,m into ",
                                 style: TextStyle(
                                     fontSize: 23, fontWeight: FontWeight.w600),

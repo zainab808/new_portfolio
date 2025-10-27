@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio/components/alert_text.dart';
 
 
 class SkillsW extends StatelessWidget {
@@ -24,7 +25,7 @@ class SkillsW extends StatelessWidget {
                                 
                                     ),
                                     SizedBox(height: 10,),
-                                    Text(text,style: TextStyle(color: Colors.black,fontSize:size.width<=898?20:  35,),)
+                                    AlertText(text,style: TextStyle(color: Colors.black,fontSize:size.width<=898?20:  35,),)
                                   ],
                                 
                                  ),

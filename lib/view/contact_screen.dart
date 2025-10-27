@@ -37,7 +37,7 @@
 //                     child: 
                    
                     
-//                     Text(
+//              AlertText(
 //                       "Get in",
 //                       style: TextStyle(
 //                         fontSize: isMobile ? 28 : 40,
@@ -806,6 +806,7 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:portfolio/components/alert_text.dart';
 
 class ContactScreen extends StatelessWidget {
 const ContactScreen({super.key});
@@ -842,7 +843,7 @@ return Material( // ✅ Added Material widget
                 ),
                 const SizedBox(width: 10),
                 if (size.width > 266)
-                  Text(
+           AlertText(
                     "Get in",
                     style: TextStyle(
                       fontSize: isMobile ? 28 : 40,
@@ -852,7 +853,7 @@ return Material( // ✅ Added Material widget
                   ),
                 const SizedBox(width: 10),
                 if (size.width > 266)
-                  Text(
+           AlertText(
                     "Touch",
                     style: TextStyle(
                       fontSize: isMobile ? 28 : 40,
@@ -924,7 +925,7 @@ return Material( // ✅ Added Material widget
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: const [
-                          Text(
+                   AlertText(
                             "Submit",
                             style: TextStyle(
                               fontWeight: FontWeight.bold,

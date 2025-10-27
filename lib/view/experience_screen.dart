@@ -46,7 +46,7 @@
 //                             width: 10,
 //                           ),
 //                           if(size.width>123)
-//                           Text(
+//                      AlertText(
 //                             "Experience",
 //                             style: TextStyle(
 //                                 fontSize: size.width<412?size.width<384?size.width<256?size.width<209?10: 20: 30:35 :40,
@@ -131,6 +131,7 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:portfolio/components/alert_text.dart';
 
 class ExperienceScreen extends StatelessWidget {
   const ExperienceScreen({super.key});
@@ -178,7 +179,7 @@ class ExperienceScreen extends StatelessWidget {
                 ),
                 const SizedBox(width: 10),
                 if (size.width > 123)
-                  Text(
+             AlertText(
                     "Experience",
                     style: TextStyle(
                       fontSize: size.width < 412
@@ -250,7 +251,7 @@ class _TimelineTile extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text(
+         AlertText(
                 item.title,
                 style: const TextStyle(
                   color: Colors.black,
@@ -259,7 +260,7 @@ class _TimelineTile extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 4),
-              Text(
+         AlertText(
                 item.subtitle,
                 style: const TextStyle(
                   color: Colors.black,
